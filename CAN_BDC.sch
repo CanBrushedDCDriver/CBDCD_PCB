@@ -538,7 +538,7 @@ Text GLabel 4600 4850 2    60   Input ~ 0
 DRV_M0
 Text GLabel 3000 3750 0    60   Input ~ 0
 DRV_nSLEEP
-Text GLabel 3000 4650 0    60   Input ~ 0
+Text GLabel 3000 4550 0    60   Input ~ 0
 DRV_BOUT1
 Text GLabel 3000 4750 0    60   Input ~ 0
 DRV_STEP
@@ -577,7 +577,7 @@ F 3 "" H 2050 4550 50  0000 C CNN
 	1    2050 4550
 	1    0    0    -1  
 $EndComp
-Text GLabel 3000 4550 0    60   Input ~ 0
+Text GLabel 3000 4650 0    60   Input ~ 0
 DRV_nENABLE
 Text GLabel 3000 4350 0    60   Input ~ 0
 DRV_BOUT2
@@ -858,4 +858,12 @@ F 3 "" H 1850 4300 50  0000 C CNN
 	1    1850 4300
 	1    0    0    -1  
 $EndComp
+Text GLabel 3450 1700 0    60   Input ~ 0
+DRV_nFAULT
+Text GLabel 3450 1800 0    60   Input ~ 0
+DRV_CONFIG
+Text GLabel 3450 1900 0    60   Input ~ 0
+DRV_M1
+Text GLabel 3450 2000 0    60   Input ~ 0
+DRV_M0
 $EndSCHEMATC
