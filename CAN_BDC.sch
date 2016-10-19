@@ -550,7 +550,7 @@ U 1 1 5803136A
 P 2200 4150
 F 0 "R3" V 2300 4250 50  0000 R CNN
 F 1 "0.25" V 2100 4250 50  0000 R CNN
-F 2 "Resistors_SMD:R_0402" H 2130 4241 50  0001 R CNN
+F 2 "Resistors_SMD:R_2512" H 2130 4241 50  0001 R CNN
 F 3 "" H 2200 4150 50  0000 C CNN
 	1    2200 4150
 	0    -1   -1   0   
@@ -561,7 +561,7 @@ U 1 1 58031E9E
 P 2200 4450
 F 0 "R4" V 2300 4550 50  0000 R CNN
 F 1 "0.25" V 2100 4550 50  0000 R CNN
-F 2 "Resistors_SMD:R_0402" H 2130 4541 50  0001 R CNN
+F 2 "Resistors_SMD:R_2512" H 2130 4541 50  0001 R CNN
 F 3 "" H 2200 4450 50  0000 C CNN
 	1    2200 4450
 	0    -1   -1   0   
@@ -665,35 +665,6 @@ Connection ~ 6050 4300
 Wire Wire Line
 	5100 4450 5100 4300
 Connection ~ 5100 4300
-$Comp
-L R R1
-U 1 1 58035F1A
-P 1750 4100
-F 0 "R1" H 1650 4100 50  0000 R CNN
-F 1 "0-200k" H 1650 4000 50  0000 R CNN
-F 2 "Resistors_SMD:R_0402" H 1680 4191 50  0001 R CNN
-F 3 "" H 1750 4100 50  0000 C CNN
-	1    1750 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R2
-U 1 1 58036074
-P 1950 4000
-F 0 "R2" H 2100 4100 50  0000 R CNN
-F 1 "0-200k" V 1850 4200 50  0000 R CNN
-F 2 "Resistors_SMD:R_0402" H 1880 4091 50  0001 R CNN
-F 3 "" H 1950 4000 50  0000 C CNN
-	1    1950 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1950 4150 1950 4250
-Wire Wire Line
-	1950 4250 1750 4250
-Wire Wire Line
-	1850 4250 1850 4300
-Connection ~ 1850 4250
 Wire Wire Line
 	4600 3750 4600 3950
 Connection ~ 4600 3850
@@ -819,12 +790,6 @@ Text GLabel 1150 5050 2    60   Input ~ 0
 DRV_BOUT2
 Text GLabel 1150 4950 2    60   Input ~ 0
 DRV_BOUT1
-Wire Wire Line
-	1750 3950 3000 3950
-Wire Wire Line
-	3000 3850 1950 3850
-Connection ~ 1750 3950
-Connection ~ 1950 3850
 $Comp
 L CONN_01X01 P6
 U 1 1 5806F67B
@@ -847,17 +812,6 @@ F 3 "" H 7850 3400 50  0000 C CNN
 	1    7850 3400
 	-1   0    0    1   
 $EndComp
-$Comp
-L GNDA #PWR026
-U 1 1 580704FB
-P 1850 4300
-F 0 "#PWR026" H 1850 4050 50  0001 C CNN
-F 1 "GNDA" H 1900 4150 50  0000 C CNN
-F 2 "" H 1850 4300 50  0000 C CNN
-F 3 "" H 1850 4300 50  0000 C CNN
-	1    1850 4300
-	1    0    0    -1  
-$EndComp
 Text GLabel 3450 1700 0    60   Input ~ 0
 DRV_nFAULT
 Text GLabel 3450 1800 0    60   Input ~ 0
@@ -866,4 +820,18 @@ Text GLabel 3450 1900 0    60   Input ~ 0
 DRV_M1
 Text GLabel 3450 2000 0    60   Input ~ 0
 DRV_M0
+Text GLabel 3000 3850 0    60   Input ~ 0
+DRV_BDECAY
+Text GLabel 3000 3950 0    60   Input ~ 0
+DRV_ADECAY
+Text GLabel 3200 2600 0    60   Input ~ 0
+DRV_ADECAY
+Text GLabel 3200 2500 0    60   Input ~ 0
+DRV_BDECAY
+Text GLabel 2150 2400 0    60   Input ~ 0
+DRV_nENABLE
+Text GLabel 2150 2500 0    60   Input ~ 0
+DRV_STEP
+Text GLabel 2150 2600 0    60   Input ~ 0
+DRV_DIR
 $EndSCHEMATC
