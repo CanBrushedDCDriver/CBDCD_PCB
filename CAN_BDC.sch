@@ -220,7 +220,7 @@ Text GLabel 5100 2200 2    60   Input ~ 0
 CAN_TX
 Text GLabel 3400 5100 2    60   Input ~ 0
 CAN_RX
-Text GLabel 3450 1300 0    60   Input ~ 0
+Text GLabel 5100 2300 2    60   Input ~ 0
 CAN_RX
 Text GLabel 5100 2400 2    60   Input ~ 0
 CAN_MOD
@@ -585,9 +585,9 @@ F 3 "" H 10300 4950 50  0000 C CNN
 	1    10300 4950
 	-1   0    0    1   
 $EndComp
-Text GLabel 3450 2100 0    60   Input ~ 0
+Text GLabel 3450 2500 0    60   Input ~ 0
 DRV_nENABLE
-Text GLabel 3450 2000 0    60   Input ~ 0
+Text GLabel 3450 2400 0    60   Input ~ 0
 DRV_MS1
 Text GLabel 5100 1900 2    60   Input ~ 0
 DRV_MS2
@@ -878,4 +878,6 @@ Wire Wire Line
 Wire Wire Line
 	2100 5200 2500 5200
 Connection ~ 1850 5050
+Text Notes 8350 2300 0    60   ~ 0
+WYPROWADZ BOOT\nODLACZENIE PRZETWORNICY\n3V3 i przetwornica na raz\n
 $EndSCHEMATC
