@@ -319,7 +319,7 @@ U 1 1 57800591
 P 1400 1800
 F 0 "P2" H 1319 1461 50  0000 C CNN
 F 1 "CONN_01X05" H 1319 1460 50  0001 C CNN
-F 2 "usb_ccb_custom:swd_smd_conn5" H 1319 1461 50  0001 C CNN
+F 2 "usb_ccb_custom:swd_smd_conn5_x2" H 1319 1461 50  0001 C CNN
 F 3 "" H 1400 1800 50  0000 C CNN
 	1    1400 1800
 	-1   0    0    1   
@@ -571,21 +571,21 @@ F 3 "" H 10300 4950 50  0000 C CNN
 	1    10300 4950
 	-1   0    0    1   
 $EndComp
-Text GLabel 5100 1900 2    60   Input ~ 0
-DRV_nENABLE
-Text GLabel 5100 1800 2    60   Input ~ 0
-DRV_MS1
-Text GLabel 5100 1700 2    60   Input ~ 0
-DRV_MS2
-Text GLabel 5100 1600 2    60   Input ~ 0
-DRV_MS3
-Text GLabel 5100 1500 2    60   Input ~ 0
-DRV_nRESET
-Text GLabel 5100 1400 2    60   Input ~ 0
-DRV_nSLEEP
-Text GLabel 3450 1400 0    60   Input ~ 0
-DRV_STEP
 Text GLabel 3450 1500 0    60   Input ~ 0
+DRV_nENABLE
+Text GLabel 3450 1400 0    60   Input ~ 0
+DRV_MS1
+Text GLabel 5100 1400 2    60   Input ~ 0
+DRV_MS2
+Text GLabel 5100 1500 2    60   Input ~ 0
+DRV_MS3
+Text GLabel 5100 1600 2    60   Input ~ 0
+DRV_nRESET
+Text GLabel 5100 1700 2    60   Input ~ 0
+DRV_nSLEEP
+Text GLabel 5100 1800 2    60   Input ~ 0
+DRV_STEP
+Text GLabel 5100 1900 2    60   Input ~ 0
 DRV_DIR
 $Comp
 L MC33063 U5
@@ -749,7 +749,7 @@ U 1 1 580A4599
 P 6900 5050
 F 0 "L1" V 7000 5000 50  0000 L CNN
 F 1 "220uH" V 6850 4850 50  0000 L CNN
-F 2 "usb_ccb_custom:DE0704_Coil" H 6900 5050 50  0001 C CNN
+F 2 "usb_ccb_custom:DE0704_Coil_2" H 6900 5050 50  0001 C CNN
 F 3 "" H 6900 5050 50  0000 C CNN
 	1    6900 5050
 	-1   0    0    1   
