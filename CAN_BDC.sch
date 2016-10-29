@@ -999,4 +999,6 @@ Wire Notes Line
 	1300 3250 1800 3250
 Wire Notes Line
 	1800 3250 1800 2200
+Text Notes 2800 5750 0    60   ~ 0
+consider  TCAN332DR 
 $EndSCHEMATC
