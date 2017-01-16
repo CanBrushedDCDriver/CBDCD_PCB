@@ -926,4 +926,15 @@ F 3 "" H 2050 3900 60  0001 C CNN
 	1    1900 3900
 	1    0    0    -1  
 $EndComp
+$Comp
+L fiducial mh2
+U 1 1 587CF23F
+P 8250 850
+F 0 "mh2" H 8100 1000 60  0000 C CNN
+F 1 "fiducial" H 8500 600 60  0001 C CNN
+F 2 "usb_ccb_custom:1pin" H 8250 850 60  0001 C CNN
+F 3 "" H 8250 850 60  0001 C CNN
+	1    8250 850 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
