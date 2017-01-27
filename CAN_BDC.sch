@@ -167,6 +167,9 @@ F 0 "U2" H 3150 4950 60  0000 C CNN
 F 1 "SN65HVD232D" H 2950 5581 60  0000 C CNN
 F 2 "SO:SO" H 2950 5581 60  0001 C CNN
 F 3 "" H 2800 5150 60  0000 C CNN
+F 4 "SN65HVD232D" H 2950 5250 60  0001 C CNN "MFG Part Num"
+F 5 "TI" H 2950 5250 60  0001 C CNN "MFG"
+F 6 "http://www.tme.eu/pl/details/sn65hvd232d/uklady-scalone-interfejs-can/texas-instruments/" H 2950 5250 60  0001 C CNN "1st Disrtib Link"
 	1    2950 5250
 	-1   0    0    1   
 $EndComp
@@ -234,6 +237,9 @@ F 0 "U1" H 1828 5928 60  0000 L CNN
 F 1 "PSD2CAN" H 1828 5822 60  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 1550 6050 60  0001 C CNN
 F 3 "" H 1550 6050 60  0000 C CNN
+F 4 "PESD2CAN.215" H 1550 5850 60  0001 C CNN "MFG Part Num"
+F 5 "NXP" H 1550 5850 60  0001 C CNN "MFG"
+F 6 "http://www.tme.eu/pl/details/pesd2can/diody-transil-smd-dwukierunkowe/nxp/pesd2can215/" H 1550 5850 60  0001 C CNN "1st Disrtib Link"
 	1    1550 5850
 	-1   0    0    -1  
 $EndComp
@@ -342,6 +348,9 @@ F 0 "U4" H 3750 2050 60  0000 C CNN
 F 1 "STM32F042G4U6" H 4550 550 39  0000 C CNN
 F 2 "usb_ccb_custom:UFQFPN_28" H 5050 400 60  0001 C CNN
 F 3 "" H 3900 1600 60  0000 C CNN
+F 4 "STM32F042G4U6" H 3900 1600 60  0001 C CNN "MFG Part Num"
+F 5 "ST" H 3900 1600 60  0001 C CNN "MFG"
+F 6 "http://www.tme.eu/pl/details/stm32f042g4u6/mikrokontrolery-st/st-microelectronics/" H 3900 1600 60  0001 C CNN "1st Disrtib Link"
 	1    3900 1600
 	1    0    0    -1  
 $EndComp
