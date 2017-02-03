@@ -212,7 +212,7 @@ Text GLabel 3400 5100 2    60   Input ~ 0
 CAN_RX
 Text GLabel 5100 2300 2    60   Input ~ 0
 CAN_RX
-Text GLabel 3450 1300 0    60   Input ~ 0
+Text GLabel 5100 1700 2    60   Input ~ 0
 CAN_MOD
 Text GLabel 2500 5400 0    60   Input ~ 0
 CAN_MOD
@@ -361,17 +361,6 @@ F 2 "Resistors_SMD:R_0402" H 1780 5291 50  0001 R CNN
 F 3 "" H 1850 5200 50  0000 C CNN
 	1    1850 5200
 	-1   0    0    1   
-$EndComp
-$Comp
-L fiducial f1
-U 1 1 5811B03C
-P 7200 850
-F 0 "f1" H 7050 1000 60  0000 C CNN
-F 1 "fiducial" H 7450 600 60  0001 C CNN
-F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 7200 850 60  0001 C CNN
-F 3 "" H 7200 850 60  0001 C CNN
-	1    7200 850 
-	1    0    0    -1  
 $EndComp
 $Comp
 L fiducial f2
@@ -550,9 +539,9 @@ Text GLabel 3450 2100 0    60   Input ~ 0
 GPIO4
 Text GLabel 3450 2000 0    60   Input ~ 0
 GPIO3
-Text GLabel 3450 1800 0    60   Input ~ 0
+Text GLabel 5100 2400 2    60   Input ~ 0
 GPIO2
-Text GLabel 3450 1700 0    60   Input ~ 0
+Text GLabel 3450 2500 0    60   Input ~ 0
 GPIO1
 Text GLabel 1150 3500 2    60   Input ~ 0
 GPIO1
@@ -562,17 +551,6 @@ Text GLabel 1150 2950 2    60   Input ~ 0
 GPIO3
 Text GLabel 1150 2850 2    60   Input ~ 0
 GPIO4
-$Comp
-L fiducial mh2
-U 1 1 587CF23F
-P 8250 850
-F 0 "mh2" H 8100 1000 60  0000 C CNN
-F 1 "fiducial" H 8500 600 60  0001 C CNN
-F 2 "usb_ccb_custom:1pin" H 8250 850 60  0001 C CNN
-F 3 "" H 8250 850 60  0001 C CNN
-	1    8250 850 
-	1    0    0    -1  
-$EndComp
 $Comp
 L DRV8837C U3
 U 1 1 589103FE
@@ -623,13 +601,13 @@ F 3 "" H 7050 5100 50  0000 C CNN
 	1    7050 5100
 	1    0    0    -1  
 $EndComp
-Text GLabel 3450 2400 0    60   Input ~ 0
+Text GLabel 5100 1600 2    60   Input ~ 0
 DRV_SLEEP
 Text GLabel 7050 5200 2    60   Input ~ 0
 DRV_SLEEP
-Text GLabel 3450 2500 0    60   Input ~ 0
+Text GLabel 5100 1500 2    60   Input ~ 0
 DRV_IN1
-Text GLabel 5100 2400 2    60   Input ~ 0
+Text GLabel 5100 1400 2    60   Input ~ 0
 DRV_IN2
 Text GLabel 7050 5400 2    60   Input ~ 0
 DRV_IN2
@@ -993,14 +971,18 @@ F 3 "" H 1250 1100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 P3
-U 1 1 5893D88C
-P 1050 1000
-F 0 "P3" H 1050 1200 50  0000 C CNN
-F 1 "CONN_01X03" V 1150 1000 50  0001 C CNN
-F 2 "usb_ccb_custom:smd3Conn" H 1050 1000 50  0001 C CNN
-F 3 "" H 1050 1000 50  0000 C CNN
-	1    1050 1000
+L CONN_01X04 P3
+U 1 1 5894FAF5
+P 1050 950
+F 0 "P3" H 1150 750 50  0000 C CNN
+F 1 "CONN_01X04" V 1150 950 50  0001 C CNN
+F 2 "usb_ccb_custom:swd_smd_conn4" H 1050 950 50  0001 C CNN
+F 3 "" H 1050 950 50  0000 C CNN
+	1    1050 950 
 	-1   0    0    1   
 $EndComp
+Text GLabel 3450 1300 0    60   Input ~ 0
+BOOT0
+Text GLabel 1250 800  2    60   Input ~ 0
+BOOT0
 $EndSCHEMATC
