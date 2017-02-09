@@ -1,0 +1,20 @@
+### Module positions - created on 02/09/17 23:36:07 ###
+### Printed by Pcbnew version kicad 4.0.4-stable
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val         Package                PosX       PosY       Rot  Side
+C1        100n        C_0402               2.0000    36.7500   90.0000  top
+C2        10n         C_0402              -5.7500    35.0000  270.0000  top
+C3        1uC         C_0402               3.7500    34.2500    0.0000  top
+C5        1uC         C_0402              -5.7500    30.2500   90.0000  top
+C6        1uC         C_0402               0.5000    36.7500   90.0000  top
+C7        0.1uC/12V   C_0402              -4.7500    28.2500    0.0000  top
+C8        10nC        C_0402               3.7500    32.7500    0.0000  top
+C9        100nC       C_0402               3.4500    25.0000    0.0000  top
+C10       0.1uC       C_0402              -2.0000    28.2500  180.0000  top
+R4        120         R_0402              -5.7500    39.0000   90.0000  top
+R5        10k         R_0402               1.0500    25.0000    0.0000  top
+U1        PSD2CAN     SOT-23              -3.0000    38.7500  270.0000  top
+U5        MIC5225-33  SOT-23-5            -3.0000    34.7500    0.0000  top
+U6        MIC5225-5   SOT-23-5            -3.0000    30.7000    0.0000  top
+## End

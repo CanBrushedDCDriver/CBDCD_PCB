@@ -536,9 +536,9 @@ Wire Wire Line
 Wire Wire Line
 	1200 4950 1200 5200
 Connection ~ 1200 5200
-Text GLabel 3450 2100 0    60   Input ~ 0
+Text GLabel 3450 1800 0    60   Input ~ 0
 GPIO4
-Text GLabel 3450 2000 0    60   Input ~ 0
+Text GLabel 3450 1700 0    60   Input ~ 0
 GPIO3
 Text GLabel 5100 2400 2    60   Input ~ 0
 GPIO2
@@ -931,7 +931,7 @@ L GND #PWR038
 U 1 1 58934048
 P 7800 3600
 F 0 "#PWR038" H 7800 3350 50  0001 C CNN
-F 1 "GND" H 7808 3427 50  0000 C CNN
+F 1 "GND" V 7900 3500 50  0000 C CNN
 F 2 "" H 7800 3600 50  0000 C CNN
 F 3 "" H 7800 3600 50  0000 C CNN
 	1    7800 3600

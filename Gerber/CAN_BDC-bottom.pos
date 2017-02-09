@@ -1,0 +1,10 @@
+### Module positions - created on 02/09/17 23:36:07 ###
+### Printed by Pcbnew version kicad 4.0.4-stable
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                PosX       PosY       Rot  Side
+C4        100u      CP_Elec_4x5.8       -3.1000    28.0000    0.0000  bottom
+GS1       GS2       GS2                  6.2500    35.0000  270.0000  bottom
+GS2       GS2       GS2                 -4.5000    39.2500  270.0000  bottom
+U2        TJA1050   SO                  -2.5000    34.7500  180.0000  bottom
+## End
