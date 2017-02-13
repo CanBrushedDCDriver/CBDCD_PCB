@@ -62,7 +62,7 @@ U 1 1 5705676D
 P 2400 1450
 F 0 "R5" H 2330 1404 50  0000 R CNN
 F 1 "10k" H 2330 1495 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603" H 2330 1541 50  0001 R CNN
+F 2 "Resistors_SMD:R_0402" H 2330 1541 50  0001 R CNN
 F 3 "" H 2400 1450 50  0000 C CNN
 	1    2400 1450
 	-1   0    0    1   
@@ -626,8 +626,6 @@ F 3 "" H 8300 2200 50  0000 C CNN
 	1    8300 2200
 	1    0    0    -1  
 $EndComp
-Text GLabel 1250 1000 2    60   Input ~ 0
-SW_CLK
 $Comp
 L CONN_01X04 P8
 U 1 1 58764BA5
@@ -729,19 +727,6 @@ F 3 "" H 1150 2250 50  0000 C CNN
 	1    1150 2250
 	0    -1   1    0   
 $EndComp
-$Comp
-L CONN_01X02 P3
-U 1 1 5877F4C8
-P 1050 950
-F 0 "P3" H 969 761 50  0000 C CNN
-F 1 "CONN_01X02" V 924 806 50  0001 R CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1050 950 50  0001 C CNN
-F 3 "" H 1050 950 50  0000 C CNN
-	1    1050 950 
-	-1   0    0    -1  
-$EndComp
-Text GLabel 1250 900  2    60   Input ~ 0
-DRV_DIR
 $Comp
 L CONN_01X02 P9
 U 1 1 58780A42
